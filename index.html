@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Ntandou portfolio</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <!-- navbar -->
+    <!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
+    <!-- Add class of bg-light to nav element -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">NTS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link navbar-brand" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-brand" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-brand" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-brand" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-brand" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+      <!-- main banner -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/containers/ -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/grid/ -->
+    <section class="container-fluid section bgimage" id="home">
+      <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+              <h2 class="hero_title">Salut, Je suis Sacre Ntandou</h2>
+              <p class="hero_desc">Développeur web fullstack freelance à Dakar</p>
+          </div>
+      </div>
+  </section>
+  <!-- about section -->
+  <section class="container mt-4 pt-4 section" id="about">
+    <h1 class="text-center">About Me</h1>
+    
+    <div class="row mt-3">
+        <div class="col-lg-4 col-md-6 mb-3">
+            <img src="images/profile2.jpg" class="image_about img-fluid" alt="">
+        </div>
+    
+        <div class="col-lg-7 col-md-6">
+            <p>Je suis Ntandou Sacre Ray Marcel, originaire du Congo Brazzaville et actuellement basé à Dakar, Sénégal. Je suis développeur web fullstack, passionné par la création d'expériences numériques innovantes. Mon expertise couvre à la fois le développement front-end avec React et le développement back-end avec Laravel et Symfony. Je m'efforce toujours de rester à la pointe des dernières technologies. En dehors du développement, je suis passionné par la lecture, la musique et le sport.</p>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <ul>
+                        <li>Front-end - ReactJS</li>
+                        <li>Back-end - Laravel et Symfony</li>
+                    </ul>
+                </div>
+                <div class="col-md-12">
+                    <p>Je m'efforce toujours de rester à la pointe des dernières technologies. En dehors du développement, je suis passionné par</p>
+                    <ul>
+                        <li>La lecture</li>
+                        <li>La musique</li>
+                        <li>Le sport</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <p>Je suis déterminé à apporter une valeur ajoutée à chaque projet avec lesquels je travaille.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- services section-->
+    <!-- https://getbootstrap.com/docs/5.2/components/card/#about -->
+    <section class="container section" id="services">
+        <h1 class="text-center">Services</h1>
+        <div class="row justify-content-center align-items-center">
+            <!-- div col-lg4 3 par ligne -->
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class="fas servicesIcon fa-clock"></i>
+                        <h4 class="card-title mt-3">Développement web</h4>
+                        <p class="card-text mt-3">Le développement web englobe la création de sites web et d'applications interactives, allant de la conception d'interfaces attrayantes à l'intégration de fonctionnalités avancées côté serveur. Avec une expertise en langages tels que HTML, CSS, JavaScript et divers frameworks, je me spécialise dans la conception de solutions web personnalisées pour répondre aux besoins uniques de chaque projet.</p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-layer-group'></i>
+                        <h4 class="card-title mt-3">Développement web WordPress</h4>
+                        <p class="card-text mt-3">Je développe des sites web dynamiques et évolutifs avec WordPress, offrant une large gamme de fonctionnalités et une expérience utilisateur optimale. Que ce soit pour des sites vitrines, des blogs, des boutiques en ligne ou des applications web complexes, WordPress fournit une base solide pour répondre aux besoins de chaque projet avec efficacité et fiabilité.</p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- portfolio section-->
+    <section class="section" id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="images/CilaBook.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Cilaa Book</h4>
+                            <p class="card-text">"Cila Book" simplifie la mise en relation entre investisseurs et porteurs de projets via une plateforme dédiée, permettant aux investisseurs d'accéder aux détails des projets et de contacter directement les porteurs de projet pour discuter de financements potentiels.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/NtSacre/APIcilabook" class="btn btn-secondary">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="images/gestion-immo-acceuil.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Biza immobilier</h4>
+                            <p class="card-text">Une mini-application web pour une entreprise immobilière, facilitant la gestion de ses biens et la réception d'avis sous forme de commentaires. Elle présentera les biens sous forme d'articles, offrant ainsi une expérience conviviale et informative.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/khadyba/Atelier_17_projet_immoblier" class="btn btn-secondary">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="images/gestion-reservation.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Gestion de réservations</h4>
+                            <p class="card-text">une plateforme de gestion de réservations d'événements, offrant une expérience fluide aux utilisateurs pour réserver des places à divers événements. Cette application permettra également aux organismes et associations de gérer leurs événements de manière efficace.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/NtSacre/projet_gestion_evenement_reservation" class="btn btn-secondary">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+
+    </section>
+    
+    <!-- contact section-->
+    <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
+
+    <section class="container mt-3 section" id="contact">
+        <h1 class="text-center">Contact Me</h1>
+
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <!-- to edit google map go to https://www.embed-map.com type your location, generate html code and copy the html  -->
+                <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                    <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                        <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Dakar,Sénégal&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                        </iframe>
+                    </div>
+                    <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                    <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                    </style>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <!-- form fields -->
+                <form>
+                    <input type="text" class="form-control form-control-lg" placeholder="Name">
+                    <input type="email" class="form-control mt-3" placeholder="Email">
+                    <input type="text" class="form-control mt-3" placeholder="Subject">
+                    <div class="mb-3 mt-3">
+                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                    </div>
+                </form>
+                <a href="mailto:sacrentnadou2.0@gmail.com" class="btn btn-success mt-3">Contact Me</a>
+            </div>
+        </div>
+        
+    </section>
+    
+    <!-- footer section-->
+    <footer class="container-fluid footer" id="footer">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <a href="https://www.facebook.com/sacre.ntandou" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/sacrentandou/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sacre-ray-marcel-ntandou-1a30a6241/" target="_blank"><i class="fab fa-linkedin"></i></a>
+         
+        </div>
+    </footer>
+
+     <!-- linking js file -->
+    <script src="script/script.js"></script>
+</body>
+</html>
