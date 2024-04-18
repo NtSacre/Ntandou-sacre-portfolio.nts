@@ -40,6 +40,9 @@
 .navbarDark {
     background: #000;
 }
+.navbarLight {
+    background-color: rgba(218, 226, 233, 0.7); /* ou toute autre couleur grise claire de votre choix */
+}
 .social-icons {
     font-size: 36px;
     cursor: pointer;
